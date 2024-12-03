@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	font-family: Cambria, sans-serif;
+	background: linear-gradient(to bottom, #4a90e2, #2c7dc1);
+	color: white;
+	text-align: center;
+}
+
+.title {
+	font-size: 30px;
+}
+.weather-containier {
+	padding: 20px;
+}
+
+.location {
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.date {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.main-weather {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 100px;
+	margin-bottom: 10px;
+}
+
+.main-weather img {
+	width: 25%;
+	height: 25%;
+	margin-right: 10px;
+}
+
+.description {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+}
+
+.weather-details {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1.1px;
+	font-size: 1.1rem;
+}
+
+.weather-details div {
+	padding: 10px;
+}
+
+.forecast {
+	margin-top: 20px;
+}
+
+.forecast-header {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.forecast-days {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.day {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 5px;
+	padding: 40px;
+	width: 80px;
+	font-size: 18px;
+}
+
+.day img {
+	width: 85%;
+	height: 70%;
+}
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    color: black;
+    font-size: 16px;
+ }
